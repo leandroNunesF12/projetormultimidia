@@ -1,0 +1,95 @@
+*{
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+body{
+  height: 100%;
+  margin: 0;
+}
+.bg{
+  background-image: url("/img/background.png");
+}
+
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+img {
+  max-width: 130px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+}
+
+header h1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+a{
+  background-color: rgb(16, 230, 33);
+  border-radius: 10%;
+  border-width: 3px;
+  border-style:groove;
+  border-color:  rgb(255, 251, 0);
+}
+
+.card_text{
+  background-color: #d9d9d9;
+        color: #000000;
+        padding: 5px;
+        margin: 0;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: 'Noto Sans JP', sans-serif;
+        border-width: 3px;
+        border-style: solid;
+        border-color:  rgb(255, 251, 0);
+}
+
+h1{
+  font-family: Loved by the King;
+  font-weight: 400;
+  font-size: 90px;
+}
+
+.texto{
+  background-color: #d9d9d9;
+  max-width: 600px;
+  max-height: 1000px;
+  width: auto;
+  height: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 251, 0);
+}
+
+.icon-text_title {
+  background-color: #d9d9d9;
+  max-width: 600px;
+  max-height: 1000px;
+  width: auto;
+  height: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 251, 0);
+}
