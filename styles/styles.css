@@ -1,18 +1,16 @@
-*{
+* {
   text-decoration: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-
-body{
+body {
   height: 100%;
   margin: 0;
 }
-.bg{
-  background-image: url("../img/background.png");
+.bg {
+  background-image: url('../img/background.png');
 }
-
 
 div {
   display: flex;
@@ -29,8 +27,6 @@ div {
   flex-direction: row;
 }
 
-
-
 img {
   max-width: 130px;
   max-height: 90px;
@@ -38,41 +34,40 @@ img {
   height: auto;
 }
 
-header h1{
+header h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-
-a{
+a {
   background-color: rgb(16, 230, 33);
   border-radius: 10%;
   border-width: 3px;
-  border-style:groove;
-  border-color:  rgb(255, 251, 0);
+  border-style: groove;
+  border-color: rgb(255, 251, 0);
 }
 
-.card_text{
+.card_text {
   background-color: #d9d9d9;
-        color: #000000;
-        padding: 5px;
-        margin: 0;
-        border-radius: 8px;
-        font-weight: bold;
-        font-family: 'Noto Sans JP', sans-serif;
-        border-width: 3px;
-        border-style: solid;
-        border-color:  rgb(255, 251, 0);
+  color: #000000;
+  padding: 5px;
+  margin: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 251, 0);
 }
 
-h1{
+h1 {
   font-family: Loved by the King;
   font-weight: 400;
   font-size: 90px;
 }
 
-.texto{
+.texto {
   background-color: #d9d9d9;
   max-width: 600px;
   max-height: 1000px;
@@ -94,9 +89,11 @@ h1{
   border-color: rgb(255, 251, 0);
 }
 
-footer div{
-  margin-top: 50px;
+.audio {
+  width: 100vw;
+  height: 30vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
