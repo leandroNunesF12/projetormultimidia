@@ -94,7 +94,7 @@ h1{
   border-color: rgb(255, 251, 0);
 }
 
-footer{
+footer div{
   margin-top: 50px;
   display: flex;
   flex-direction: column;
